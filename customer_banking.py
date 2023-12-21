@@ -13,7 +13,7 @@ def main():
     # ADD YOUR CODE HERE
     savings_balance  = float(input("Please enter the savings amount: "))
     savings_interest = float(input("Please enter the interest rate : "))
-    savings_maturity = int(input("Please enter the numbher of months : "))
+    savings_maturity = int(input("Please enter the number of months : "))
 
     # Call the create_savings_account function and pass the variables from the user.
     updated_savings_balance, interest_earned = create_savings_account(savings_balance, savings_interest, savings_maturity)
@@ -27,7 +27,7 @@ def main():
     # ADD YOUR CODE HERE
     cd_balance  = float(input("Please enter the cd amount: "))
     cd_interest = float(input("Please enter the interest rate : "))
-    cd_maturity = int(input("Please enter the numbher of months : "))
+    cd_maturity = int(input("Please enter the number of months : "))
     # Call the create_cd_account function and pass the variables from the user.
     updated_cd_balance, interest_earned = create_cd_account(cd_balance, cd_interest, cd_maturity)
 
